@@ -1,2 +1,2 @@
 # brutos-hibernate-mysql
-Brutos hibernate mysql example
+Brutos hibernate with mysql example
