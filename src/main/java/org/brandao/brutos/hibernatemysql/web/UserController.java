@@ -42,8 +42,8 @@ public class UserController {
 	}
 
 	@Action("/users")
+	@View("users/userForm")
 	@RequestMethod(RequestMethodTypes.POST)
-	@ResponseErrors(code=200, view="users/userForm")
 	public void updateUser(
 			@Valid
 			@Basic(bean="user")User user) throws ValidatorException, UserRegistryException{
